@@ -6,7 +6,15 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  theme: 
+  {
+    colors: {
+      kebabblue: "#244855",
+      kebabred: "#E64833",
+      kebabbrown: "#874F41",
+      kebabteal: "#90AEAD",
+      kebabwhite: "#FBE9D0",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
